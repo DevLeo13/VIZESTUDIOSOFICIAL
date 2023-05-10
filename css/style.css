@@ -344,7 +344,7 @@ footer .rodape{
     .background{
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(/VIZESTUDIOS/imagens/pagina-inicial.png);
+        background-image: url(/imagens/pagina-inicial.png);
     }
 
     .background video{
