@@ -503,9 +503,10 @@ footer .rodape{
     }
 
     .sobre .container{
-        display: flex;
-        flex-direction: column;
-        margin-left: 25%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        margin-right: 515px;
+        margin-top: 30px;
     }
     
     .sobre .container a{
@@ -513,9 +514,9 @@ footer .rodape{
         text-decoration: none;
         color: white;
         background-color: rgb(74, 76, 60);
-        width: 190px;
+        width: 170px;
         height: 45px;
-        margin-top: 20px;
+        margin: 10px 10px 30px 10px;
     }
 
     section .orcamento{
@@ -528,13 +529,12 @@ footer .rodape{
     }
 
 
-    footer .rodape{ 
+    footer .rodape{
+        font-size: 10px;
         margin-top: 30px;
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
+        display: inline-flex;
+        justify-content: space-around;
     }
+
 }
 
