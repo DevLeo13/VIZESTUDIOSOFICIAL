@@ -22,7 +22,7 @@ section.main .logo img{
     color: rgb(255, 255, 255);
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .background{
@@ -43,22 +43,23 @@ section.second{
 }
 
 section.second .sobre p{
+    text-align: center;
     padding-bottom: 20px;
+    margin-top: 100px;
     font-weight: 500;
-    font-size: 1.2rem;
-    width: 90%;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);   
     /*margin: 10px 50px 200px 300px;*/
 }
 
 section.second .sobre h2{
-    width: 90%;
+    text-align: center;
     font-size: 20px;
     color: white;   
     padding: 40px;
     font-weight: 100;
-   /*margin-top: 50px;
-    margin-left: 530px;*/
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .sobre{
@@ -69,10 +70,11 @@ section.second .sobre h2{
 }
 
 section.second .box{
-    margin-top: -165px;
+    margin-left: 30px;
+    margin-top: 10px;
     width: 50px;
     height: 8px;
-    background-color: rgb(247, 247, 247 , 0.5)
+    background-color: rgba(255, 255, 255, 0.5)
 }
 
 section.thre{
@@ -349,8 +351,9 @@ footer .rodape{
         font-size: 25px;
     }
 
-    .background img{
-        height: 1000px;
+    .background{
+        background-image: url(/imagens/pagina-inicial.png);
+        height: 600px;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -369,18 +372,18 @@ footer .rodape{
 
 
     section.second p{
-        width: 100%;
+        width: 90%;
         font-size: 1.2rem;
         text-align: center;
-        margin-bottom: 50%;
+        margin-bottom: 10%;
         margin-top: 30%;
     }
 
     section.second h2{
-        width: 100%;
+        width: 90%;
         font-size: 1.2rem;
         text-align: center;
-        margin-bottom: 50%;
+        margin-bottom: 55%;
     }
 
     section.thre{
