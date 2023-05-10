@@ -42,18 +42,21 @@ section.second{
     font-family: 'Montserrat', sans-serif;
 }
 
-section.second p{
+section.second .sobre p{
     padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;   
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 90%;
+    color: rgb(255, 255, 255);   
     /*margin: 10px 50px 200px 300px;*/
 }
 
-section.second h2{
+section.second .sobre h2{
+    width: 90%;
     font-size: 20px;
     color: white;   
     padding: 40px;
+    font-weight: 100;
    /*margin-top: 50px;
     margin-left: 530px;*/
 }
@@ -66,6 +69,7 @@ section.second h2{
 }
 
 section.second .box{
+    margin-top: -165px;
     width: 50px;
     height: 8px;
     background-color: rgb(247, 247, 247 , 0.5)
@@ -289,7 +293,6 @@ section.five h1{
     text-decoration: none;
     color: white;
     background-color: rgb(74, 76, 60);
-    border-radius: 10px;
 }
 
 section .orcamento{
@@ -333,18 +336,18 @@ footer .rodape{
 
 @media screen and (max-width: 768px) {
     section.main .logo img{
-        width: 50%;
+        width: 40%;
         margin-top: -8%;
     }
 
     .menu-nav a{
-        font-size: 35px;
+        font-size: 25px;
     }
 
-    .background{
+    .background img{
+        height: 1000px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(/imagens/pagina-inicial.png);
     }
 
     .background video{
@@ -359,17 +362,20 @@ footer .rodape{
         justify-content: space-between;
     }
 
+
     section.second p{
         width: 100%;
         font-size: 1.2rem;
         text-align: center;
-        margin-top: 40%;
+        margin-bottom: 50%;
+        margin-top: 30%;
     }
 
     section.second h2{
         width: 100%;
         font-size: 1.2rem;
         text-align: center;
+        margin-bottom: 50%;
     }
 
     section.thre{
@@ -408,7 +414,7 @@ footer .rodape{
     }
     
     a.btn{
-        border-radius: 10px;
+
         font-size: 0.7rem;
         padding: 3%;
     }
@@ -490,7 +496,7 @@ footer .rodape{
     }
     
     section.five h2{
-        width: 95%;
+        width: 89%;
         height: 100%;
         font-size: 1rem;
         margin-top: 10%;
