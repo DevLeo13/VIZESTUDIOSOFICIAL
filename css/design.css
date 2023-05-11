@@ -121,7 +121,7 @@ footer .rodape{
         grid-template-columns: repeat(2, 96%);
         grid-auto-rows: 190px;
         margin-top: 4%;
-        margin-left:-21%;
+        margin-left:-20%;
     }
 
     .projetos img{    
