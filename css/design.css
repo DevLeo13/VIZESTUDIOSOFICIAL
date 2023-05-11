@@ -116,7 +116,7 @@ footer .rodape{
     }
     
     .projetos .fotos{
-        width: 96%;
+        width: 95%;
         display: grid;
         grid-template-columns: repeat(2, 96%);
         grid-auto-rows: 190px;
