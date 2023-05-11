@@ -132,6 +132,14 @@ footer .rodape{
         font-size: 1.1rem;
         font-weight: 100;
     }
+
+    .design h1{
+        margin-bottom: -160px;
+        margin-top: 80px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
     
     .projetos .fotos{
         width: 95%;
