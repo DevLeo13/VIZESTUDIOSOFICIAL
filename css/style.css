@@ -353,7 +353,7 @@ footer .rodape{
 
     .background{
         background-image: url(/imagens/pagina-inicial.png);
-        height: 600px;
+        height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -371,23 +371,19 @@ footer .rodape{
     }
 
 
-    section.second p{
+    section.second .sobre p{
         width: 90%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-align: center;
         margin-bottom: 10%;
         margin-top: 30%;
     }
 
-    section.second h2{
+    section.second .sobre h2{
         width: 90%;
         font-size: 1.2rem;
         text-align: center;
         margin-bottom: 55%;
-    }
-
-    section.thre{
-        width: 100%;
     }
 
     section.five .sobre .detalhe{
@@ -408,11 +404,7 @@ footer .rodape{
     .oquefz p{
         font-size: 2.0rem;
     }
-
-    .oquefz p{
-        font-size: 2.0rem;
-    }
-
+    
     .trabalhos{
         margin-top: 20px;
         font-weight: 700;
@@ -428,7 +420,8 @@ footer .rodape{
     }
 
     section.thre{
-        margin-top: 10%;
+        margin-top: -100px;
+        width: 100%;
     }
 
     section.thre .design{
