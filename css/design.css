@@ -104,6 +104,30 @@ footer .rodape{
     justify-content: space-around;
 }
 
+.botão{
+    text-align: center;
+    width: 100%;
+}
+
+.botão a{
+    color: rgb(74, 76, 60);
+    text-decoration: none;
+    width: 100%;
+}
+
+.botão h1{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-left: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding: 10px;
+}
+
+
+
 @media screen and (max-width: 768px){
     section.main .logo img{
         width: 40%;
