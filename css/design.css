@@ -64,6 +64,15 @@ body{
     padding: 100px;
 }
 
+.detalhe{
+    width: 4%;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 1%;
+    margin-left: 48%;
+    z-index: 100;
+}
+
 .projetos img{    
     margin-top: 80px;
     width: 100%;
