@@ -148,17 +148,20 @@ footer .rodape{
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
     }
+
+    .projetos{
+        width: 85%;
+    }
     
     .projetos .fotos{
-        width: 96%;
         display: grid;
-        grid-template-columns: repeat(2, 96%);
+        grid-template-columns: repeat(2, 95%);
         grid-auto-rows: 190px;
-        margin-top: 170px;
-        margin-left:-20%;
     }
 
-    .projetos img{    
+    .projetos img{  
+        margin-top: 90px;
+        margin-left: -28%;
         width: 100%;
         height: 100%;
     }
