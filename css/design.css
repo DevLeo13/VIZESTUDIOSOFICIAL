@@ -99,7 +99,35 @@ footer .rodape{
         font-size: 25px;
     }
     
+    .design{
+        margin-top: 50px;
+        text-align: center;
+    }
 
+    .design p{
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    .design h2{
+        margin-left: 50px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .projetos .fotos{
+        display: grid;
+        grid-template-columns: repeat(2, 100%);
+        grid-auto-rows: 190px;
+    }
+
+    .projetos img{    
+        margin-top: -40px;
+        margin-left: -95px;
+        width: 190px;
+        height: 190px;
+        margin-bottom: -200px;
+    } 
 
     footer .rodape{
         font-size: 10px;
