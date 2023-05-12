@@ -383,7 +383,7 @@ footer .rodape{
         width: 90%;
         font-size: 1.2rem;
         text-align: center;
-        margin-bottom: 55%;
+        margin-bottom: 40%;
     }
 
     section.five .sobre .detalhe{
@@ -548,7 +548,12 @@ footer .rodape{
 
     section .orcamento .orca p, h1{
         padding: 10px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+    }
+
+    section .orcamento .orca p{
+        font-weight: 500;
+        padding-top: 20px;
     }
 
 
