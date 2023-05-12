@@ -172,13 +172,13 @@ footer .rodape{
     }
 
     .projetos{
-        width: 85%;
+        width: 84%;
     }
     
     .projetos .fotos{
         display: grid;
         grid-template-columns: repeat(2, 96%);
-        grid-auto-rows: 190px;
+        grid-auto-rows: 150px;
     }
 
     .projetos img{  
