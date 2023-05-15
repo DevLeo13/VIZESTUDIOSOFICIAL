@@ -253,7 +253,7 @@ section.five .box{
     margin-top: 10%;
     background-color: rgb(74, 76, 60);
     width: 45%;
-    height: 40%;
+    height: 50%;
     color: white;
 }
 
@@ -492,7 +492,7 @@ footer .rodape img{
     section.five .sobre {
         background-image: url(/imagens/FUNDO-grande.png);
         width: 100%;
-        height: 1500px;
+        height: 1400px;
         background-size: cover;
         background-position: center;
         image-rendering: optimizeQuality;
@@ -509,9 +509,9 @@ footer .rodape img{
 
 
     section.five .box{
-        margin-top: -150px;
+        margin-top: 30px;
         width: 90%;
-        height: 45%;
+        height: 55%;
     }
     
     section.five h2{
@@ -532,7 +532,6 @@ footer .rodape img{
         grid-template-columns: repeat(2, 1fr) ;
         margin-right: 515px;
         margin-top: 30px;
-
     }
     
     .sobre .container a{
@@ -547,7 +546,7 @@ footer .rodape img{
     }
 
     section .orcamento{
-        margin-top: -220px;
+        margin-top: -140px;
     }
     
     section.five .sobre h1{
@@ -567,7 +566,7 @@ footer .rodape img{
 
     footer .rodape{
         font-size: 12px;
-        margin-top: 85px;
+        margin-top: 25px;
         display: inline-flex;
         justify-content: center;
     }
