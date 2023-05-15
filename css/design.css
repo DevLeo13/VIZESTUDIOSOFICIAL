@@ -126,6 +126,13 @@ footer .rodape{
     padding: 10px;
 }
 
+footer .rodape img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    vertical-align: -3px;
+}
+
 @media screen and (max-width: 768px){
     section.main .logo img{
         width: 40%;
@@ -203,5 +210,10 @@ footer .rodape{
         justify-content: space-around;
     }
 
+    footer .rodape img{
+        width: 12px;
+        height: 12px;
+        vertical-align: -3px;
+      }
 }
 
